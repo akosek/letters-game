@@ -18,7 +18,7 @@ const ScorePanel = (props: Props) => {
         <p>Bonus: {props.bonus}</p>
         <p>Total: {props.points}</p>
       </Row>
-      <Button onPress={() => props.newGame} text="New Game" />
+      <Button onPress={props.newGame} text="New Game" />
     </ContainerStyled>
   );
 };

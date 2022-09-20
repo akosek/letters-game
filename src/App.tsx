@@ -1,9 +1,8 @@
-// styles
-import "./App.css";
-
 // Components
 import Playgroud from "./containers/Playgroud";
 import Dashboard from "./containers/Dashboard";
+// styles
+import "./App.css";
 
 function App() {
   return (
